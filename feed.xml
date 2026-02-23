@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2026-02-21 12:30">
+  <shop>
+    <name>МИРИКЕЯ</name>
+    <company>МИРИКЕЯ</company>
+    <url>https://mirikea.ru/</url>
+    <email>info@mirikea.ru</email>
+
+    <currencies>
+      <currency id="RUB" rate="1"/>
+    </currencies>
+
+    <categories>
+      <category id="1">Меблировка под ключ</category>
+      <category id="11" parentId="1">Квартира-студия</category>
+      <category id="12" parentId="1">Однокомнатная квартира</category>
+      <category id="13" parentId="1">Квартира 2-Евро</category>
+    </categories>
+
+    <offers>
+
+      <!-- ===================== -->
+      <!-- СТУДИЯ -->
+      <!-- ===================== -->
+
+      <offer id="studio_light" available="true">
+        <name>Меблировка студии под ключ — пакет «Лайт»</name>
+        <url>https://mirikea.ru/studio/studio_light</url>
+        <price>350000</price>
+        <oldprice>538461</oldprice>
+        <currencyId>RUB</currencyId>
+        <categoryId>11</categoryId>
+
+        <picture>https://optim.tildacdn.com/tild6536-6436-4136-b035-616431636265/-/format/webp/enhanced_downloadedI.png.webp</picture>
+        <picture>https://optim.tildacdn.com/tild3061-3064-4034-b035-646132646531/-/format/webp/_2.PNG.webp</picture>
+        <picture>https://optim.tildacdn.com/tild6435-3962-4263-b366-623136393137/-/format/webp/enhanced_21111_1.png.webp</picture>
+
+        <description><![CDATA[
+Комплексная меблировка студии под ключ. Подбор, закупка, доставка и сборка мебели и техники.
+]]></description>
+
+        <param name="Примечание">Фиксированная стоимость</param>
+        <param name="Срок реализации">14 дней</param>
+        <param name="Гарантия">24 месяца</param>
+        <param name="Регион">Санкт-Петербург</param>
+      </offer>
+
+      <offer id="studio_start" available="true">
+        <name>Меблировка студии под ключ — пакет «Старт»</name>
+        <url>https://mirikea.ru/studio/studio_start</url>
+        <price>450000</price>
+        <oldprice>818181</oldprice>
+        <currencyId>RUB</currencyId>
+        <categoryId>11</categoryId>
+
+        <picture>https://optim.tildacdn.com/tild3034-3964-4561-b666-393864373131/-/format/webp/enhanced_.png.webp</picture>
+        <picture>https://optim.tildacdn.com/tild3931-3730-4336-a366-633265316262/-/format/webp/_2.png.webp</picture>
+        <picture>https://optim.tildacdn.com/tild3130-3839-4835-b037-643131393834/-/format/webp/photo.jpg.webp</picture>
+
+        <description><![CDATA[
+Комплексная меблировка студии под ключ.
+]]></description>
+
+        <param name="Примечание">Расширенная комплектация</param>
+        <param name="Срок реализации">14 дней</param>
+        <param name="Гарантия">24 месяца</param>
+        <param name="Регион">Санкт-Петербург</param>
+      </offer>
+
+      <!-- ===================== -->
+      <!-- 1-КОМНАТНАЯ -->
+      <!-- ===================== -->
+
+      <!-- ВАЖНО: Блок 1k_light в вашем сообщении был обрезан. Ниже оставлен шаблон. Заполните price/oldprice/pictures/description/url при необходимости. -->
+      <offer id="1k_light" available="true">
+        <name>Меблировка 1-комнатной квартиры — пакет «Лайт»</name>
+        <url>https://mirikea.ru/1k/1k_light</url>
+        <price>450000</price>
+        <oldprice>0</oldprice>
+        <currencyId>RUB</currencyId>
+        <categoryId>12</categoryId>
+
+        <!-- Добавьте картинки (1–10) -->
+        <!-- <picture>https://...</picture> -->
+
+        <description><![CDATA[
+Комплексная меблировка однокомнатной квартиры под ключ.
+]]></description>
+
+        <param name="Примечание">Фиксированная стоимость</param>
+        <param name="Срок реализации">14 дней</param>
+        <param name="Гарантия">24 месяца</param>
+        <param name="Регион">Санкт-Петербург</param>
+      </offer>
+
+      <offer id="1k_start" available="true">
+        <name>Меблировка 1-комнатной квартиры — пакет «Старт»</name>
+        <url>https://mirikea.ru/1k/1k_start</url>
+        <price>550000</price>
+        <oldprice>982142</oldprice>
+<currencyId>RUB</currencyId>
+        <categoryId>12</categoryId>
+
+        <picture>https://optim.tildacdn.com/tild6265-3562-4562-a438-376535303432/-/format/webp/photo.jpg.webp</picture>
+        <picture>https://optim.tildacdn.com/tild6638-3362-4162-b264-346266633032/-/format/webp/1.png.webp</picture>
+        <picture>https://optim.tildacdn.com/tild6438-6132-4265-a537-306339303530/-/format/webp/_1.jpg.webp</picture>
+
+        <description><![CDATA[
+Мебель, техника, системы хранения и текстиль для 1к квартиры.
+]]></description>
+
+        <param name="Примечание">Расширенная комплектация</param>
+        <param name="Срок реализации">14 дней</param>
+        <param name="Гарантия">24 месяца</param>
+        <param name="Регион">Санкт-Петербург</param>
+      </offer>
+
+      <offer id="1k_best" available="true">
+        <name>Меблировка 1-комнатной квартиры — пакет «Лучшее предложение»</name>
+        <url>https://mirikea.ru/1k/1k_best</url>
+        <price>650000</price>
+        <oldprice>1140350</oldprice>
+        <currencyId>RUB</currencyId>
+        <categoryId>12</categoryId>
+
+        <picture>https://optim.tildacdn.com/tild6435-6331-4036-b031-623865326630/-/format/webp/photo.png.webp</picture>
+        <picture>https://optim.tildacdn.com/tild3637-3332-4836-b564-613764613833/-/format/webp/photo.png.webp</picture>
+        <picture>https://optim.tildacdn.com/tild3639-6331-4466-b035-316466313634/-/format/webp/IMG_0808.PNG.webp</picture>
+
+        <description><![CDATA[
+Полный комплект мебели и техники для комфортного проживания.
+]]></description>
+
+        <param name="Примечание">Максимальная комплектация</param>
+        <param name="Срок реализации">14 дней</param>
+        <param name="Гарантия">24 месяца</param>
+        <param name="Регион">Санкт-Петербург</param>
+      </offer>
+
+      <!-- ===================== -->
+      <!-- 2-ЕВРО -->
+      <!-- ===================== -->
+
+      <offer id="2e_light" available="true">
+        <name>Меблировка квартиры 2-Евро — пакет «Лайт»</name>
+        <url>https://mirikea.ru/2e/2e_light</url>
+        <price>500000</price>
+        <oldprice>847457</oldprice>
+        <currencyId>RUB</currencyId>
+        <categoryId>13</categoryId>
+
+        <picture>https://optim.tildacdn.com/tild3032-6663-4937-b239-396533383266/-/format/webp/5240375197007811287.jpg.webp</picture>
+        <picture>https://optim.tildacdn.com/tild6365-6537-4163-a262-313131313033/-/format/webp/5240375197007811290.jpeg.webp</picture>
+        <picture>https://optim.tildacdn.com/tild6435-3962-4263-b366-623136393137/-/format/webp/enhanced_21111_1.png.webp</picture>
+
+        <description><![CDATA[
+Комплексная меблировка квартиры 2-Евро под ключ.
+]]></description>
+
+        <param name="Примечание">Фиксированная стоимость</param>
+        <param name="Срок реализации">14 дней</param>
+        <param name="Гарантия">24 месяца</param>
+        <param name="Регион">Санкт-Петербург</param>
+      </offer>
+
+      <offer id="2e_start" available="true">
+        <name>Меблировка квартиры 2-Евро — пакет «Старт»</name>
+        <url>https://mirikea.ru/2e/2e_start</url>
+        <price>600000</price>
+        <oldprice>1052631</oldprice>
+        <currencyId>RUB</currencyId>
+        <categoryId>13</categoryId>
+
+        <picture>https://optim.tildacdn.com/tild6538-3665-4464-a531-356132626139/-/format/webp/photo.png.webp</picture>
+        <picture>https://optim.tildacdn.com/tild3266-3035-4338-a132-626431626436/-/format/webp/-.png.webp</picture>
+        <picture>https://optim.tildacdn.com/tild3339-3662-4534-b231-366430353532/-/format/webp/photo.png.webp</picture>
+
+        <description><![CDATA[
+Мебель и техника для кухни-гостиной и спальни.
+]]></description>
+
+        <param name="Примечание">Расширенная комплектация</param>
+        <param name="Срок реализации">14 дней</param>
+        <param name="Гарантия">24 месяца</param>
+        <param name="Регион">Санкт-Петербург</param>
+      </offer>
+
+      <!-- ВАЖНО: offer 2e_best в вашем сообщении был обрезан. Ниже оставлен шаблон — заполните. -->
+      <offer id="2e_best" available="true">
+        <name>Меблировка квартиры 2-Евро — пакет «Лучшее предложение»</name>
+        <url>https://mirikea.ru/2e/2e_best</url>
+        <price>700000</price>
+        <oldprice>0</oldprice>
+        <currencyId>RUB</currencyId>
+        <categoryId>13</categoryId>
+
+        <!-- Добавьте картинки (1–10) -->
+        <!-- <picture>https://...</picture> -->
+
+        <description><![CDATA[
+Полный комплект мебели и техники для комфортного проживания.
+]]></description>
+
+        <param name="Примечание">Максимальная комплектация</param>
+        <param name="Срок реализации">14 дней</param>
+        <param name="Гарантия">24 месяца</param>
+        <param name="Регион">Санкт-Петербург</param>
+      </offer>
+
+    </offers>
+  </shop>
+</yml_catalog>
+
